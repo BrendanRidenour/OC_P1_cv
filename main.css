@@ -1,0 +1,199 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    background: #222;
+    color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+
+#resume {
+    min-height: 500px;
+    min-width: 800px;
+    width: 80%;
+    margin: 0 auto 5% auto;
+    background: #fff;
+    display: flex;
+}
+
+#sidebar {
+    background-color: gold;
+    width: 30%;
+    min-width: 250px;
+    position: relative;
+}
+
+    #sidebar img.statement {
+        margin: 10% auto;
+        width: 55%;
+        display: block;
+        border-radius: 50%;
+        border: solid #dcba00 .25em;
+    }
+
+    #sidebar header {
+        background: #444;
+        color: gold;
+        margin: 2em 0 1.25em;
+        padding: .25em;
+        font-size: 1.5em;
+        line-height: 1.5em;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+        #sidebar header h3 {
+            margin: 0;
+            padding: 0;
+        }
+
+    #sidebar p {
+        color: #7b6800;
+        margin: 1em 12.5%;
+        line-height: 1.25em;
+    }
+
+    #sidebar a {
+        color: #7b6800;
+    }
+
+        #sidebar a:visited {
+            color: #7b6800;
+        }
+
+        #sidebar a:hover, a:active, a:focus {
+            color: #7b6800;
+        }
+
+    #sidebar #about p {
+        text-align: justify;
+    }
+
+    #sidebar #hobbies {
+        padding-bottom: 1em;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+        #sidebar #hobbies #hobbies-icons {
+            display: flex;
+        }
+
+            #sidebar #hobbies #hobbies-icons i.fa {
+                flex: auto;
+            }
+
+#main-content {
+    padding: 0 2.5% 2.5% 7.5%;
+    width: 70%;
+    color: #555;
+}
+
+    #main-content h1 {
+        margin: 1.25em 0 0;
+        font-size: 4em;
+        font-weight: lighter;
+        text-transform: uppercase;
+    }
+
+        #main-content h1 span#first-name {
+            color: gold;
+        }
+
+    #main-content #subtitle {
+        font-size: 2em;
+        margin: 0 0 3em 0;
+        font-weight: bold;
+        position: relative;
+    }
+
+        #main-content #subtitle hr {
+            margin: .15em 0 0;
+            width: 125px;
+            border: 1px solid gold;
+        }
+
+    #main-content section {
+        margin-bottom: 3em;
+    }
+
+        #main-content section header {
+            border-bottom: solid gold 2px;
+            padding-bottom: .75em;
+            margin: 0 0 2.5em;
+        }
+
+            #main-content section header i.fa {
+                margin: 0 .75em 0 0;
+                color: gold;
+            }
+
+            #main-content section header h2 {
+                margin-bottom: 0;
+                text-transform: uppercase;
+                font-size: 2em;
+            }
+
+        #main-content section .line-item {
+            margin-bottom: 2em;
+            display: grid;
+            grid-template-columns: 5% 30% 65%;
+        }
+
+        #main-content section div.line-item:last-of-type {
+            margin-bottom: 0;
+        }
+
+        #main-content section .line-item .bullet {
+            color: gold;
+        }
+
+        #main-content section .line-item .timeline {
+        }
+
+        #main-content section .line-item .details {
+        }
+
+            #main-content section .line-item .details h4 {
+                margin: 0 0 .5em;
+                text-transform: uppercase;
+                font-size: 1.35em;
+                font-weight: bold;
+            }
+
+            #main-content section .line-item .details h5 {
+                margin: 0;
+                font-size: 1em;
+                font-weight: normal;
+            }
+
+        #main-content section #ref-list {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            line-height: 1.25;
+        }
+
+            #main-content section #ref-list h6 {
+                font-weight: normal;
+                text-transform: uppercase;
+                margin: 0 0 .25em;
+                font-size: 1.1em;
+            }
+
+            #main-content section #ref-list p {
+                margin: 0;
+            }
+
+        #main-content section a {
+            color: #555;
+        }
+
+            #main-content section a:visited {
+                color: #555;
+            }
+
+            #main-content section a:hover, a:active, a:focus {
+                color: #555;
+            }
